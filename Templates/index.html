@@ -1,0 +1,206 @@
+{% extends "base.html" %} {% block title %} Dev-derah {% endblock %} {% block
+body %}
+<!-- header section -->
+<section class="header-section" id="home">
+  <div class="my-pic">
+    <img
+      src="{{url_for('static',filename ='images/memoji.webp')}}"
+      alt="Derah"
+      class="main-img"
+    />
+  </div>
+  <div class="header-text" >
+    <h2>Hi, I am derah</h2>
+    <button>Contact me</button>
+  </div>
+</section>
+<div class="section-transition"></div>
+<section class="aboutme-section" id="about-me">
+  <div id="stars"></div>
+  <div id="stars2"></div>
+  <div id="stars3"></div>
+  <div class="aboutme-container" data-aos="fade-up">
+    <div class="about-me-header">
+      <h2>About me</h2>
+    </div>
+    <div class="about-me-content">
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse nihil ea
+        ratione tempora, molestiae nemo minus sunt consequatur facere recusandae
+        tenetur, eum quidem nisi maxime iste dolor aut omnis quo, voluptatum at.
+        Optio officiis autem sit ab dolores repellat pariatur unde consectetur
+        modi libero quia, saepe, obcaecati iure sunt, vitae nihil? Repellat
+        maxime vitae pariatur assumenda non necessitatibus. Sint dolore,
+        eligendi officiis, est maxime repellendus facilis rerum cupiditate esse
+        nesciunt quos nobis, nostrum vel optio hic earum animi eum quis id. Aut
+        libero odit at aliquam impedit, perspiciatis eos, ad, ducimus inventore
+        expedita est laborum optio cum voluptatum repudiandae. Recusandae!
+      </p>
+    </div>
+    <div>
+      <!-- <div class="p">My Technical skills</div> -->
+      <ul class="skills">
+        <!-- <li class="skill">
+          <img
+            src="{{url_for('static',filename ='images/html-5.png')}}"
+            alt="icon"
+            class="icon"
+          />
+          <p>HTML</p>
+        </li> -->
+
+        <!-- <li class="skill">
+          <img
+            src="{{url_for('static',filename ='images/css.png')}}"
+            alt="icon"
+            class="icon"
+          />
+          <p>CSS</p>
+        </li> -->
+
+        <li class="skill">
+          <img
+            src="{{url_for('static',filename ='images/structure.png')}}"
+            alt="icon"
+            class="icon"
+          />
+          <!-- <p>React</p> -->
+        </li>
+
+        <li class="skill">
+          <img
+            src="{{url_for('static',filename ='images/python.png')}}"
+            alt="icon"
+            class="icon"
+          />
+          <!-- <p>Python</p> -->
+        </li>
+
+        <li class="skill">
+          <img
+            src="{{url_for('static',filename ='images/git.png')}}"
+            alt="icon"
+            class="icon"
+          />
+          <!-- <p>Git</p> -->
+        </li>
+
+        <li class="skill">
+          <img
+            src="{{url_for('static',filename ='images/postgre.png')}}"
+            alt="icon"
+            class="icon"
+          />
+          <!-- <p>Postgresql</p> -->
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Projects section -->
+<section class="projects-section" id="projects">
+  <h1>Projects</h1>
+  <p>Here are a couple of my most recent projects</p>
+
+  <div class="projects">
+    <span class="project-container">
+      <img
+        src="{{url_for('static',filename ='images/website.png')}}"
+        alt="project"
+      />
+      <div class="overlay">
+        <span><i class="fa fa-eye" aria-hidden="true"></i> View Project</span>
+      </div>
+      <div class="project-name">Banky</div>
+    </span>
+
+        <span class="project-container">
+      <img
+        src="{{url_for('static',filename ='images/website.png')}}"
+        alt="project"
+      />
+       <div class="overlay">
+        <span><i class="fa fa-eye" aria-hidden="true"></i> View Project</span>
+      </div>
+      <div class="project-name">Banky</div>
+    </span>
+
+        <span class="project-container">
+      <img
+        src="{{url_for('static',filename ='images/website.png')}}"
+        alt="project"
+      />
+       <div class="overlay">
+        <span><i class="fa fa-eye" aria-hidden="true"></i> View Project</span>
+      </div>
+      <div class="project-name">Banky</div>
+    </span>
+
+        <span class="project-container">
+      <img
+        src="{{url_for('static',filename ='images/website.png')}}"
+        alt="project"
+      />
+       <div class="overlay">
+        <span><i class="fa fa-eye" aria-hidden="true"></i> View Project</span>
+      </div>
+      <div class="project-name">Banky</div>
+    </span>
+
+        <span class="project-container">
+      <img
+        src="{{url_for('static',filename ='images/website.png')}}"
+        alt="project"
+      />
+       <div class="overlay">
+        <span><i class="fa fa-eye" aria-hidden="true"></i> View Project</span>
+      </div>
+      <div class="project-name">Banky ligt webapp</div>
+    </span>
+
+        <span class="project-container">
+      <img
+        src="{{url_for('static',filename ='images/website.png')}}"
+        alt="project"
+      />
+       <div class="overlay">
+        <span><i class="fa fa-eye" aria-hidden="true"></i> View Project</span>
+      </div>
+      <div class="project-name">Banky</div>
+    </span>
+
+    </div>
+</section>
+
+
+<section class="contact-section" id="contacts">
+  <div class="contact-header">
+    <h2>Contact Me</h2>
+  </div>
+    <div class="contact-icons">
+      <div class="contact-icon">
+        <a href=""><i class="fa-brands fa-github"></i></a>
+      </div>
+
+       <div class="contact-icon">
+        <a href=""><i class="fa-solid fa-envelope"></i></a>
+      </div>
+
+       <div class="contact-icon">
+        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+      </div>
+
+       <div class="contact-icon">
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+      </div>
+
+      
+    </div>
+</section >
+
+<section >
+  <div class="footer"></div>
+</section>
+
+{% endblock %}
